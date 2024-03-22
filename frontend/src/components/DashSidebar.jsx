@@ -27,7 +27,6 @@ export default function DashSidebar() {
 
           <Sidebar.Item
             icon={HiArrowSmRight}
-            label={"User"}
             labelColor="dark"
           >
             Sign Out
