@@ -17,7 +17,7 @@ export default function CallToAction() {
             </Button>
         </div>
         <div className="p-7 flex-1">
-            <img src="https://latitudetechnolabs.com/wp-content/uploads/2022/05/ReactJS-logo.png.webp" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/blinkbytes-d5712.appspot.com/o/1711906761954-ReactJS-logo.png?alt=media&token=2cc6a319-88c4-4605-be69-8e2ec006c9f4"/>
         </div>
     </div>
   )

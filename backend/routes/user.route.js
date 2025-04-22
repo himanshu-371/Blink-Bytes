@@ -1,4 +1,4 @@
-import express from 'express';
+import {Router} from 'express';
 import {
   deleteUser,
   getUser,
@@ -9,7 +9,7 @@ import {
 } from '../controllers/user.controller.js';
 import { verifyToken } from '../utils/verifyUser.js';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/test', test);
 router.put('/update/:userId', verifyToken, updateUser);

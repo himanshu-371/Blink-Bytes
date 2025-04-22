@@ -17,7 +17,7 @@ export default function SignUp() {
     e.preventDefault();
 
     if (!formData.username || !formData.email || !formData.password) {
-      return setErrorMessage("PLease fill out all the fields.");
+      return setErrorMessage("Please fill out all the fields.");
     }
 
     try {
@@ -104,7 +104,7 @@ export default function SignUp() {
               ) : (
                 "Sign Up"
               )}
-            </Button>
+            </Button> 
             <OAuth />
           </form>
           <div className="flex gap-2 text-sm mt-5">
